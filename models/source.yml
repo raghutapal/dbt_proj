@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: cust_city
+    database: dbt_database  
+    schema: dbt_schema  
+    tables:
+      - name: src_cust_city_1
+      - name: src_cust_city_2
